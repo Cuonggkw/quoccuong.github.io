@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: black;
+  line-height: 1;
+}
+
+.carousel {
+  background-color: #e03131;
+  margin: 100px auto;
+  width: 800px;
+  border-radius: 10px;
+  position: relative;
+  padding: 30px;
+  padding-left: 80px;
+
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+/* .chinh {
+  padding: 30px;
+} */
+
+.testimonial-test {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  color: #ffc9c9;
+  /* Khoảng cách các chữ */
+  letter-spacing: 0.75px;
+}
+
+.testimonial-author {
+  font-size: 13px;
+  margin-bottom: 5px;
+  color: #ffe3e3;
+}
+
+.testimonial-job {
+  font-size: 11px;
+  color: #ffe3e3;
+}
+
+.btn {
+  background-color: white;
+  border: none;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.btn-icon {
+  height: 20px;
+  width: 20px;
+  stroke: #fa5252;
+}
+
+.btn--left {
+  left: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.btn--right {
+  right: 0;
+  top: 50%;
+  transform: translate(50%, -50%);
+}
+
+img {
+  height: 200px;
+  border-radius: 8px;
+  transform: scale(1.5);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 1);
+}
+
+.dots {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 32px);
+
+  display: flex;
+  gap: 12px;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  background-color: white;
+  border: 2px solid #f03e3e;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dot--color {
+  background-color: #f03e3e;
+}
